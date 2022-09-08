@@ -1,6 +1,6 @@
 import React from 'react';
 
 export function Person(props){
-  return <h5>My name is Rita</h5>
+  return <h5>My name is {props.name}</h5>
 
 }

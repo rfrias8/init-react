@@ -8,6 +8,6 @@ import { Person } from './Person';
 export function App() {
   return <>
     <Welcome />
-    <Person />
+    <Person name="Rita"/>
   </>
 }

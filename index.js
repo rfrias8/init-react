@@ -1,10 +1,8 @@
 import React from "react";
 import reactDom from "react-dom";
-import ReactDOM from "react-dom";
+import { App } from './App';
 
 reactDom.render(
-    <h1>
-        This is JSX, not HTML
-    </h1>,
+    <App />,
     document.getElementById("root")
 );

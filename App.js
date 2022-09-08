@@ -1,6 +1,6 @@
 import React from 'react';
 import { Welcome } from './Welcome';
-import { Name } from './Name';
+import { Person } from './Person';
 
 
 
@@ -8,6 +8,6 @@ import { Name } from './Name';
 export function App() {
   return <>
     <Welcome />
-    <Name />
+    <Person />
   </>
 }
